@@ -1,0 +1,66 @@
+/* popup.css  */
+
+body, html {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 46, 46);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    width: 400px; /* Set a fixed width */
+    background-color: rgb(46, 46, 46);
+}
+
+.container {
+    width: 90%;
+    height: 500px;
+    padding: 10px;
+    border: 1px solid rgb(77, 77, 77);
+    border-radius: 10px;
+
+}
+
+.inner-container {
+    display: flex;
+    justify-content: center;
+}
+
+.inner-container h2 {
+    color: white;
+    font-size: medium;
+}
+
+.inner-container p {
+    color: white;
+}
+
+.inner-container button {
+    /* background-color: aqua; */
+    margin: 2% 2%;
+    padding: 5% 15%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.inner-container button:hover {
+    background-color: white;
+}
+
+.inner-container button:active {
+    background-color: gray;
+}
+
+.inner-container #btn-change {
+    background-color: rgb(221, 188, 0);
+}
+
+.inner-container #btn-change:hover {
+    background-color: rgb(255, 217, 0);
+}
+
+.inner-container #btn-change:active {
+    background-color: rgb(119, 108, 37);
+}
